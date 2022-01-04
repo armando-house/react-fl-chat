@@ -15,7 +15,9 @@ export default function ChatList() {
     const linkmans = useLinkmans();
 
     async function handleSearch() {
-        
+        const result = await search(searchKeywords);
+        updateSearchKeywords('');
+        Actions.push('searchResult', result);
     }
 
     function renderLinkman(linkman: LinkmanType) {
