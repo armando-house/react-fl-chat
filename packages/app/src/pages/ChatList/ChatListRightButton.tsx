@@ -11,8 +11,7 @@ function ChatListRightButton() {
     const [groupName, updateGroupName] = useState('');
 
     function handleCloseDialog() {
-        updateGroupName('');
-        toggleDialog(false);
+        
     }
 
     async function handleCreateGroup() {
