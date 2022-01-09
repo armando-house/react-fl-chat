@@ -33,15 +33,7 @@ export default function Linkman({
 }: Props) {
     function formatTime() {
         const nowTime = new Date();
-        if (Time.isToday(nowTime, time)) {
-            return Time.getHourMinute(time);
-        }
-        if (Time.isYesterday(nowTime, time)) {
-            return '昨天';
-        }
-        if (Time.isSameYear(nowTime, time)) {
-            return Time.getMonthDate(time);
-        }
+        
         return Time.getYearMonthDate(time);
     }
 
