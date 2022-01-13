@@ -19,7 +19,7 @@ function GroupProfile() {
     }
 
     function ShowEnvironment(environment: string) {
-        // Alert.alert('设备信息', environment);
+        Alert.alert('设备信息', environment);
     }
 
     async function handleLeaveGroup() {
