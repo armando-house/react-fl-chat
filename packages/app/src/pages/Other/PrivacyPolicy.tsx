@@ -17,8 +17,8 @@ function PrivacyPolicy({ visible, onClose }: Props) {
     }
 
     async function handleAgree() {
-        // await setStorageValue(PrivacyPolicyStorageKey, 'true');
-        // onClose();
+        await setStorageValue(PrivacyPolicyStorageKey, 'true');
+        onClose();
     }
 
     async function handleDisagree() {
