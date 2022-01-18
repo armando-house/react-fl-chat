@@ -103,7 +103,9 @@ const styles = StyleSheet.create({
         paddingLeft: 16,
         paddingRight: 16,
     },
-    
+    groupInfo: {
+        marginLeft: 8,
+    },
     groupName: {
         color: '#444',
     },
