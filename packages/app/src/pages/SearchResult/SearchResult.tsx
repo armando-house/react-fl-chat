@@ -96,13 +96,7 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: 'transparent',
     },
-    item: {
-        height: 56,
-        flexDirection: 'row',
-        alignItems: 'center',
-        paddingLeft: 16,
-        paddingRight: 16,
-    },
+    
     groupInfo: {
         marginLeft: 8,
     },
