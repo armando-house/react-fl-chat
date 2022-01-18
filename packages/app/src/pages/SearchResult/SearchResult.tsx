@@ -96,10 +96,14 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: 'transparent',
     },
-    
-    groupInfo: {
-        marginLeft: 8,
+    item: {
+        height: 56,
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingLeft: 16,
+        paddingRight: 16,
     },
+    
     groupName: {
         color: '#444',
     },
