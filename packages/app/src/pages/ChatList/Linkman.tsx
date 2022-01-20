@@ -46,12 +46,7 @@ export default function Linkman({
     }
 
     function handlePress() {
-        action.setFocus(id);
-        Actions.chat({ title: formatLinkmanName(linkman) });
-
-        if (id && lastMessageId) {
-            fetch('updateHistory', { linkmanId: id, messageId: lastMessageId });
-        }
+        
     }
 
     return (
