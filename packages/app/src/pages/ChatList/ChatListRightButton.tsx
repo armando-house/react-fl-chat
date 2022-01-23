@@ -24,9 +24,7 @@ function ChatListRightButton() {
                 unread: 1,
                 messages: [],
             });
-            action.setFocus(group._id);
-            handleCloseDialog();
-            Actions.push('chat', { title: group.name });
+            
         }
     }
 
