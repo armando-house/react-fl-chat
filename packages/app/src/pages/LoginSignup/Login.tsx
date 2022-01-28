@@ -28,7 +28,9 @@ export default function Login() {
             const [err2, linkmans] = await fetch('getLinkmansLastMessagesV2', {
                 linkmans: linkmanIds,
             });
-            
+            if (!err2) {
+                action.setLinkmansLastMessages(linkmans);
+            }
 
             Actions.pop();
             await setStorageValue('token', res.token);
